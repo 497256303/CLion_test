@@ -43,6 +43,7 @@ void init_image_data(int height, int width, int num_sp, MyPoint *spoint, int d[]
 	d[0] = width - box_x + 1;//终点
 	d[1] = height - box_y + 1;
 }
+
 //	target = cvCreateImage(cvSize(d[0], d[1]), IPL_DEPTH_8U, 1);
 //	result = (int *) malloc(sizeof(int) * d[0] * d[1]);
 
@@ -397,7 +398,7 @@ void rotation_uniform_invariant_lbp(IplImage *src,int height,int width,int num_s
 
 int main()
 {
-	IplImage *src, *grey, *result;
+	IplImage *src, *grey;
 	int samples, radius, range, *mapping;
 	MyPoint *spoint;
 	float Mi;
@@ -407,7 +408,7 @@ int main()
 	Mi = 2.0;
 	range = pow(Mi, samples);
 
-	src = cvLoadImage("/Users/zby/Documents/GitHub/CLion_test/test_LBP/timg.jpg");
+	src = cvLoadImage("/Users/zby/Documents/GitHub/CLion_test/test_LBP/tjlogo.jpg");
 	grey = cvCreateImage(cvSize(src->width, src->height), IPL_DEPTH_8U, 1);
 	cvCvtColor(src, grey, CV_BGR2GRAY);
 	mapping = (int *) malloc(sizeof(int) * range);
