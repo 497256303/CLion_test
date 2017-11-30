@@ -6,27 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/zby/CLionProjects/test_LBP/main.cpp
+/Users/zby/Documents/GitHub/CLion_test/test_LBP/main.cpp
 iostream
--
-stdio.h
 -
 opencv2/opencv.hpp
 -
-cv.h
--
-
-/usr/local/include/opencv/cv.h
-opencv2/core/core_c.h
-/usr/local/include/opencv/opencv2/core/core_c.h
-opencv2/imgproc/imgproc_c.h
-/usr/local/include/opencv/opencv2/imgproc/imgproc_c.h
-opencv2/photo/photo_c.h
-/usr/local/include/opencv/opencv2/photo/photo_c.h
-opencv2/video/tracking_c.h
-/usr/local/include/opencv/opencv2/video/tracking_c.h
-opencv2/objdetect/objdetect_c.h
-/usr/local/include/opencv/opencv2/objdetect/objdetect_c.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

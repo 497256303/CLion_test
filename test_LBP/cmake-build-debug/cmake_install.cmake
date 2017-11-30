@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zby/CLionProjects/test_LBP
+# Install script for directory: /Users/zby/Documents/GitHub/CLion_test/test_LBP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zby/CLionProjects/test_LBP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zby/Documents/GitHub/CLion_test/test_LBP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
